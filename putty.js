@@ -1,5 +1,5 @@
 var url = "https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe";
-var temp = WScript.CreateObject("WScript.Shell").ExpandEnvironmentStrings("%TEMP%") + "\puttycyc.exe";
+var temp = WScript.CreateObject("WScript.Shell").ExpandEnvironmentStrings("%TEMP%") + "\putty.exe";
 var xHttp = new ActiveXObject("Microsoft.XMLHTTP");
 xHttp.open("GET", url, false);
 xHttp.send();
